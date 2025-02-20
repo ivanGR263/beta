@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Daniel Eraso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .contact-info, .education, .experience, .skills {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daniel Eraso</h1>
+        <p>Ingeniero Electrónico con Maestría en Ingeniería Electrónica</p>
+    </header>
+
+    <section class="section contact-info">
+        <h2>Información de Contacto</h2>
+        <ul>
+            <li><strong>Email:</strong> daniel.eraso@example.com</li>
+            <li><strong>Teléfono:</strong> +57 3217506043</li>
+            <li><strong>Dirección:</strong> Pasto, Nariño, Colombia</li>
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/daniel-eraso">linkedin.com/in/daniel-eraso</a></li>
+        </ul>
+    </section>
+
+    <section class="section education">
+        <h2>Educación</h2>
+        <ul>
+            <li>
+                <strong>Maestría en Ingeniería Electrónica</strong><br>
+                Universidad Nacional de Colombia - Sede Pasto<br>
+                2027 - 2032
+            </li>
+            <li>
+                <strong>Ingeniería Electrónica</strong><br>
+                Universidad cesmag - Pasto, Colombia<br>
+                2023 - 2027
+            </li>
+        </ul>
+    </section>
+
+    <section class="section experience">
+        <h2>Experiencia Laboral</h2>
+        <ul>
+            <li>
+                <strong>Ingeniero de Proyectos</strong><br>
+                Empresa Tecnológica XYZ - Pasto, Colombia<br>
+                Enero 2023 - Presente<br>
+                Responsabilidades: Diseño y desarrollo de sistemas electrónicos, supervisión de proyectos.
+            </li>
+            <li>
+                <strong>Practicante de Ingeniería</strong><br>
+                Empresa ABC Electrónica - Pasto, Colombia<br>
+                Julio 2018 - Diciembre 2019<br>
+                Responsabilidades: Soporte técnico, mantenimiento de equipos electrónicos.
+            </li>
+        </ul>
+    </section>
+
+    <section class="section skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Diseño de circuitos electrónicos</li>
+            <li>Programación en C/C++, matlab</li>
+            <li>Manejo de herramientas CAD (AutoCAD, Altium Designer)</li>
+            <li>Conocimientos en IoT y sistemas embebidos</li>
+            <li>Gestión de proyectos</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Última actualización: Febrero 2025</p>
+    </footer>
+</body>
+</html>
